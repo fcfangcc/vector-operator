@@ -914,6 +914,13 @@ spec:
                             type: array
                         type: object
                     type: object
+                  annotations:
+                    additionalProperties:
+                      type: string
+                    description: Annotations is an unstructured key value map stored
+                      with a resource that may be set by external tools to store and
+                      retrieve arbitrary metadata.
+                    type: object
                   api:
                     description: ApiSpec is the Schema for the Vector Agent GraphQL
                       API - https://vector.dev/docs/reference/api/
